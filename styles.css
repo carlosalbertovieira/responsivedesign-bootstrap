@@ -1,0 +1,82 @@
+/* max width is up to tablet (all styles are applied to tablet and below (md to xs breakpoints) */
+@media (max-width: 992px) { 
+  nav.navbar .navbar-collapse .navbar-nav {
+    padding-top: 2.5rem;
+    position: relative;
+  }
+
+  nav.navbar .navbar-collapse form[role="search"] {
+    position: absolute;
+    top: 3.4rem;
+    left: 1vw;
+    width: 98.5vw;
+  }
+
+  nav.navbar .navbar-nav .nav-item.options-toggler {
+    display: block;
+  }
+}
+
+/* reverse of the above, min width is tablet (all styles are applied to lg -> xl breakpoints)  */
+@media (min-width: 992px) { 
+    nav.navbar .navbar-nav .nav-item.options-toggler {
+      display: none;
+    }
+}
+
+/* max width is up to md breakpoint (all styles are applied to md breakppoint and below */
+@media (max-width: 992px) {
+    .options-list .list-group-item {
+        width: 75vw;
+    }
+}
+
+/* max width is up to sm breakpoint (all styles are applied to sm breakppoint and below */
+@media (max-width: 768px) {
+    .options-list .list-group-item {
+        width: 100%;
+    }
+}
+/* Cambiar el color del navbar a gris */
+.navbar.bg-body-tertiary {
+  background-color: #6b6767; /* Cambia el color gris según tu preferencia */
+}
+
+
+
+.text-carousel {
+    margin: 0 auto;
+    width: fit-content;
+    overflow-x: hidden;
+}
+
+.carousel-item.active {
+    width: fit-content;
+}
+
+.carousel-item {
+    width: 0;
+    transition: all 0.5s linear 0s;
+}
+
+.options-list {
+    margin: .25rem;
+    text-decoration: underline;
+}
+
+.debug {
+    border: 1px solid red;
+}
+/* Estilo para las opciones 1, 2, 3 y 4 en tamaño LG */
+.col-lg-3 .list-group-item {
+  padding: 10px; /* Ajusta el valor según tu preferencia */
+  margin: 25px 0; /* Agrega un espacio entre los elementos de la lista */
+  text-decoration: underline;
+}
+/* Usar !important */
+.navbar {
+  background-color:#6c757d !important; /* Cambia el valor de color gris según tu preferencia */
+}
+.text-gray {
+  color: rgb(160, 160, 160); /* Cambia "gray" al color que desees */
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Design & Boostrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Main div -->
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-secondary" data-bs-theme="white">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase text-white" href="#">Lorem Ipsum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Dolor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-gray" href="#">Sit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-gray" href="#">Amet</a>
+            </li>
+    
+            <li class="nav-item options-toggler">
+              <button class="nav-link" type="button" data-bs-toggle="collapse"
+                data-bs-target="#optionsList">Opciones</a>
+            </li>
+          </ul>
+          <form id="form" class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <ul class="list-group collapse navbar-collapse options-list d-lg-none" id="optionsList">
+      <li class="list-group-item">Opción 1</li>
+      <li class="list-group-item">Opción 2</li>
+      <li class="list-group-item">Opción 3</li>
+      <li class="list-group-item">Opción 4</li>
+    </ul>
+
+    <main>
+
+      <div class="d-none d-lg-block w-100 py-5">
+        <h1 class="fw-semibold text-center">Lorem Ipsum...</h1>
+        <div class="text-carousel">
+          <div class="h4 fw-semibold text-center carousel-item active">sample text 1</div>
+          <div class="h4 fw-semibold text-center carousel-item">sample text 2</div>
+          <div class="h4 fw-semibold text-center carousel-item">sample text 3</div>
+        </div>
+      </div>
+      <div class="container-lg">
+        <div class="row">
+          <!-- Primera columna para las opciones -->
+          <div class="col-lg-3 col-sm-12">
+            <ul class="ist-group d-none d-lg-block">
+              <li class="list-group-item">Opción 1</li>
+              <li class="list-group-item">Opción 2</li>
+              <li class="list-group-item">Opción 3</li>
+              <li class="list-group-item">Opción 4</li>
+            </ul>
+          </div>
+
+          <!-- Segunda columna para el párrafo de Lorem Ipsum -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <p class="text-carousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae modi natus unde corporis veniam enim.
+              Quibusdam dolor facere ipsa impedit odit expedita sit obcaecati repudiandae doloremque magni, voluptate
+              quia illum!</p><br>
+            <p class="text-carousel">Risus viverra adipiscing at in tellus integer. Sit amet commodo nulla facilisi nullam vehicula ipsum a
+              arcu. Viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas.Faucibus et molestie ac
+              feugiat sed lectus vestibulum mattis ullamcorper. Curabitur gravida arcu ac tortor dignissim convallis
+              aenean.</p><br>
+            <p class="text-carousel">Egestas fringilla phasellus faucibus scelerisque. Sit amet luctus venenatis lectus magna fringilla. Quis
+              commodo odio aenean sed adipiscing diam donec adipiscing tristique. Vel pharetra vel turpis nunc eget
+              lorem dolor sed. Sed viverra ipsum nunc aliquet bibendum enim.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <p class="text-carousel">Adipiscing enim eu turpis egestas pretium aenean. Egestas tellus rutrum tellus pellentesque eu. Faucibus
+              interdum posuere lorem ipsum. Orci dapibus ultrices in iaculis. Velit euismod in pellentesque massa
+              placerat duis. Amet aliquam id diam maecenas ultricies mi eget mauris pharetra.</p><br>
+            <p class="text-carousel">Nec sagittis aliquam malesuada bibendum arcu vitae. Mi quis hendrerit dolor magna eget est. Est ultricies
+              integer quis auctor. Nec ultrices dui sapien eget mi. Nibh cras pulvinar mattis nunc sed blandit. Massa
+              tincidunt nunc pulvinar sapien et ligula. Eget est lorem ipsum dolor.</p><br>
+            <p class="text-carousel">Ut etiam sit amet nisl purus in mollis nunc. Pretium lectus quam id leo in vitae turpis. Dis parturient
+              montes nascetur ridiculus mus mauris vitae. Dictum varius duis at consectetur lorem donec.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <p>Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Hendrerit gravida
+              rutrum quisque non tellus orci ac. Habitasse platea dictumst vestibulum rhoncus est pellentesque.</p>
+            <p class="text-carousel">Sed risus pretium quam vulputate dignissim suspendisse in est. In nisl nisi scelerisque eu ultrices vitae
+              auctor eu. Et molestie ac feugiat sed lectus vestibulum. Augue lacus viverra vitae congue eu consequat ac
+              felis. Malesuada fames ac turpis egestas integer eget.</p>
+          </div>
+        </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
